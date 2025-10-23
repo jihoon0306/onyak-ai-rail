@@ -20,7 +20,7 @@ function groupBy(arr, keyFn) {
   }, {});
 }
 
-export default async function handler(req, res) {
+export default async function (req, res) {
   try {
     res.setHeader('Cache-Control', 's-maxage=900, stale-while-revalidate=3600');
 

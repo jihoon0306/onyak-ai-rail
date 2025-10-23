@@ -1,9 +1,5 @@
 {
   "version": 2,
-  "functions": {
-    "api/poi.js":   { "runtime": "nodejs18.x" },
-    "api/hello.js": { "runtime": "nodejs18.x" }
-  },
   "routes": [
     { "src": "/api/(.*)", "dest": "/api/$1" }
   ]
